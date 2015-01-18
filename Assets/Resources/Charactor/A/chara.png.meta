@@ -1,0 +1,2482 @@
+fileFormatVersion: 2
+guid: 5fdacc3128f8e4c429da08af9a1d9fec
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: img_1274697346_12_6
+    21300002: img_1274697346_12_7
+    21300004: img_1274697346_12_8
+    21300006: img_1274697346_12_9
+    21300008: img_1274697346_12_10
+    21300010: img_1274697346_12_11
+    21300012: img_1274697346_12_12
+    21300014: img_1274697346_12_13
+    21300016: img_1274697346_12_14
+    21300018: img_1274697346_12_15
+    21300020: img_1274697346_12_16
+    21300022: img_1274697346_12_17
+    21300024: img_1274697346_12_18
+    21300026: img_1274697346_12_19
+    21300028: img_1274697346_12_20
+    21300030: img_1274697346_12_29
+    21300032: img_1274697346_12_30
+    21300034: img_1274697346_12_31
+    21300036: img_1274697346_12_32
+    21300038: img_1274697346_12_33
+    21300040: img_1274697346_12_34
+    21300042: img_1274697346_12_35
+    21300044: img_1274697346_12_36
+    21300046: img_1274697346_12_37
+    21300048: img_1274697346_12_38
+    21300050: img_1274697346_12_39
+    21300052: img_1274697346_12_40
+    21300054: img_1274697346_12_41
+    21300056: img_1274697346_12_42
+    21300058: img_1274697346_12_43
+    21300060: img_1274697346_12_44
+    21300062: img_1274697346_12_45
+    21300064: img_1274697346_12_46
+    21300066: img_1274697346_12_47
+    21300068: img_1274697346_12_48
+    21300070: img_1274697346_12_49
+    21300072: img_1274697346_12_50
+    21300074: img_1274697346_12_51
+    21300076: img_1274697346_12_52
+    21300078: img_1274697346_12_54
+    21300080: img_1274697346_12_55
+    21300082: img_1274697346_12_56
+    21300084: img_1274697346_12_57
+    21300086: img_1274697346_12_58
+    21300088: img_1274697346_12_59
+    21300090: img_1274697346_12_60
+    21300092: img_1274697346_12_61
+    21300094: img_1274697346_12_62
+    21300096: img_1274697346_12_63
+    21300098: img_1274697346_12_64
+    21300100: img_1274697346_12_65
+    21300102: img_1274697346_12_66
+    21300104: img_1274697346_12_67
+    21300106: img_1274697346_12_68
+    21300108: img_1274697346_12_69
+    21300110: img_1274697346_12_70
+    21300112: img_1274697346_12_71
+    21300114: img_1274697346_12_72
+    21300116: img_1274697346_12_82
+    21300118: img_1274697346_12_83
+    21300120: img_1274697346_12_84
+    21300122: img_1274697346_12_85
+    21300124: img_1274697346_12_86
+    21300126: img_1274697346_12_87
+    21300128: img_1274697346_12_88
+    21300130: img_1274697346_12_89
+    21300132: img_1274697346_12_90
+    21300134: img_1274697346_12_127
+    21300136: img_1274697346_12_128
+    21300138: img_1274697346_12_129
+    21300140: img_1274697346_12_130
+    21300142: img_1274697346_12_131
+    21300144: img_1274697346_12_132
+    21300146: img_1274697346_12_133
+    21300148: img_1274697346_12_134
+    21300150: img_1274697346_12_135
+    21300152: img_1274697346_12_136
+    21300154: img_1274697346_12_149
+    21300156: img_1274697346_12_150
+    21300158: img_1274697346_12_151
+    21300160: img_1274697346_12_152
+    21300162: img_1274697346_12_153
+    21300164: img_1274697346_12_154
+    21300166: img_1274697346_12_155
+    21300168: img_1274697346_12_156
+    21300170: img_1274697346_12_178
+    21300172: img_1274697346_12_179
+    21300174: img_1274697346_12_180
+    21300176: img_1274697346_12_181
+    21300178: img_1274697346_12_182
+    21300180: img_1274697346_12_183
+    21300182: img_1274697346_12_184
+    21300184: img_1274697346_12_185
+    21300186: img_1274697346_12_186
+    21300188: img_1274697346_12_187
+    21300190: img_1274697346_12_188
+    21300192: img_1274697346_12_189
+    21300194: img_1274697346_12_190
+    21300196: img_1274697346_12_191
+    21300198: img_1274697346_12_192
+    21300200: img_1274697346_12_193
+    21300202: img_1274697346_12_194
+    21300204: img_1274697346_12_195
+    21300206: img_1274697346_12_196
+    21300208: img_1274697346_12_197
+    21300210: img_1274697346_12_199
+    21300212: img_1274697346_12_200
+    21300214: img_1274697346_12_219
+    21300216: img_1274697346_12_220
+    21300218: img_1274697346_12_221
+    21300220: img_1274697346_12_222
+    21300222: img_1274697346_12_223
+    21300224: img_1274697346_12_224
+    21300226: img_1274697346_12_225
+    21300228: img_1274697346_12_226
+    21300230: img_1274697346_12_227
+    21300232: img_1274697346_12_228
+    21300234: img_1274697346_12_229
+    21300236: img_1274697346_12_230
+    21300238: img_1274697346_12_231
+    21300240: img_1274697346_12_233
+    21300242: img_1274697346_12_234
+    21300244: img_1274697346_12_235
+    21300246: img_1274697346_12_236
+    21300248: img_1274697346_12_237
+    21300250: img_1274697346_12_238
+    21300252: img_1274697346_12_239
+    21300254: img_1274697346_12_240
+    21300256: img_1274697346_12_241
+    21300258: img_1274697346_12_242
+    21300260: img_1274697346_12_265
+    21300262: img_1274697346_12_266
+    21300264: img_1274697346_12_267
+    21300266: img_1274697346_12_268
+    21300268: img_1274697346_12_269
+    21300270: img_1274697346_12_270
+    21300272: img_1274697346_12_271
+    21300274: img_1274697346_12_272
+    21300276: img_1274697346_12_273
+    21300278: img_1274697346_12_274
+    21300280: img_1274697346_12_275
+    21300282: img_1274697346_12_276
+    21300284: img_1274697346_12_277
+    21300286: img_1274697346_12_278
+    21300288: img_1274697346_12_283
+    21300290: img_1274697346_12_284
+    21300292: img_1274697346_12_285
+    21300294: img_1274697346_12_286
+    21300296: img_1274697346_12_287
+    21300298: img_1274697346_12_288
+    21300300: img_1274697346_12_301
+    21300302: img_1274697346_12_302
+    21300304: img_1274697346_12_303
+    21300306: img_1274697346_12_304
+    21300308: img_1274697346_12_305
+    21300310: img_1274697346_12_306
+    21300312: img_1274697346_12_307
+    21300314: img_1274697346_12_308
+    21300316: img_1274697346_12_309
+    21300318: img_1274697346_12_320
+    21300320: img_1274697346_12_321
+    21300322: img_1274697346_12_322
+    21300324: img_1274697346_12_323
+    21300326: img_1274697346_12_324
+    21300328: img_1274697346_12_325
+    21300330: img_1274697346_12_326
+    21300332: img_1274697346_12_327
+    21300334: img_1274697346_12_328
+    21300336: img_1274697346_12_329
+    21300338: img_1274697346_12_330
+    21300340: img_1274697346_12_331
+    21300342: img_1274697346_12_332
+    21300344: img_1274697346_12_333
+    21300346: img_1274697346_12_334
+    21300348: img_1274697346_12_335
+    21300350: img_1274697346_12_368
+    21300352: img_1274697346_12_369
+    21300354: img_1274697346_12_370
+    21300356: img_1274697346_12_371
+    21300358: img_1274697346_12_372
+    21300360: img_1274697346_12_373
+    21300362: img_1274697346_12_374
+    21300364: img_1274697346_12_375
+    21300366: img_1274697346_12_376
+    21300368: img_1274697346_12_377
+    21300370: img_1274697346_12_378
+    21300372: img_1274697346_12_392
+    21300374: img_1274697346_12_393
+    21300376: img_1274697346_12_394
+    21300378: img_1274697346_12_395
+    21300380: img_1274697346_12_396
+    21300382: img_1274697346_12_397
+    21300384: img_1274697346_12_398
+    21300386: img_1274697346_12_399
+    21300388: img_1274697346_12_400
+    21300390: img_1274697346_12_401
+    21300392: img_1274697346_12_402
+    21300394: img_1274697346_12_403
+    21300396: img_1274697346_12_404
+    21300398: img_1274697346_12_405
+    21300400: img_1274697346_12_406
+    21300402: img_1274697346_12_407
+    21300404: img_1274697346_12_408
+    21300406: img_1274697346_12_409
+    21300408: img_1274697346_12_410
+    21300410: img_1274697346_12_415
+    21300412: img_1274697346_12_424
+    21300414: img_1274697346_12_428
+    21300416: img_1274697346_12_429
+    21300418: img_1274697346_12_430
+    21300420: img_1274697346_12_431
+    21300422: img_1274697346_12_438
+    21300424: img_1274697346_12_439
+    21300426: img_1274697346_12_440
+    21300428: img_1274697346_12_441
+    21300430: img_1274697346_12_442
+    21300432: img_1274697346_12_443
+    21300434: img_1274697346_12_274
+    21300436: img_1274697346_12_265
+    21300438: img_1274697346_12_261
+    21300440: img_1274697346_12_220
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: img_1274697346_12_6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1993
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_7
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1993
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_8
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1993
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_9
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1993
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_10
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1993
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1942
+        width: 48
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1942
+        width: 48
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_13
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1942
+        width: 48
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1942
+        width: 47
+        height: 65
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1942
+        width: 46
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_16
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1942
+        width: 47
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_17
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1942
+        width: 48
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_18
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 1942
+        width: 45
+        height: 63
+      alignment: 9
+      pivot: {x: .419999987, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_19
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1942
+        width: 46
+        height: 64
+      alignment: 9
+      pivot: {x: .460000008, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_20
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1926
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_29
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1845
+        width: 45
+        height: 65
+      alignment: 9
+      pivot: {x: .449999988, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_30
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1845
+        width: 43
+        height: 62
+      alignment: 9
+      pivot: {x: .460000008, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1845
+        width: 34
+        height: 60
+      alignment: 9
+      pivot: {x: .349999994, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1844
+        width: 46
+        height: 65
+      alignment: 9
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_33
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1844
+        width: 44
+        height: 63
+      alignment: 9
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_34
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1843
+        width: 36
+        height: 62
+      alignment: 9
+      pivot: {x: .439999998, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_35
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1843
+        width: 65
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_36
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1843
+        width: 65
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_37
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1823
+        width: 47
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_38
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1823
+        width: 47
+        height: 80
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_39
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1823
+        width: 47
+        height: 80
+      alignment: 9
+      pivot: {x: .529999971, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_40
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1823
+        width: 47
+        height: 80
+      alignment: 9
+      pivot: {x: .529999971, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_41
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1822
+        width: 45
+        height: 70
+      alignment: 9
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_42
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1822
+        width: 47
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_43
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1827
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_44
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1827
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_45
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1827
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_46
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1827
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_47
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1826
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_48
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 1826
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_49
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1826
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_50
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1826
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_51
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1826
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_52
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1826
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_54
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1754
+        width: 44
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_55
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1754
+        width: 62
+        height: 60
+      alignment: 9
+      pivot: {x: .399154663, y: .00548299169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_56
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1754
+        width: 58
+        height: 60
+      alignment: 9
+      pivot: {x: .389999986, y: -2.03450531e-06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_57
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1754
+        width: 44
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_58
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1754
+        width: 64
+        height: 57
+      alignment: 9
+      pivot: {x: .360000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_59
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1754
+        width: 62
+        height: 56
+      alignment: 9
+      pivot: {x: .349999994, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_60
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1754
+        width: 44
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_61
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1753
+        width: 46
+        height: 60
+      alignment: 9
+      pivot: {x: .469566017, y: .00166625972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_62
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1753
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: .397506356, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_63
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1753
+        width: 43
+        height: 51
+      alignment: 9
+      pivot: {x: .397506386, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_64
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1753
+        width: 43
+        height: 51
+      alignment: 9
+      pivot: {x: .397506386, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_65
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1753
+        width: 43
+        height: 51
+      alignment: 9
+      pivot: {x: .397506386, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_66
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1753
+        width: 39
+        height: 51
+      alignment: 9
+      pivot: {x: .449999988, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_67
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1753
+        width: 39
+        height: 51
+      alignment: 9
+      pivot: {x: .449999988, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_68
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1753
+        width: 39
+        height: 52
+      alignment: 9
+      pivot: {x: .449999988, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_69
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1753
+        width: 39
+        height: 51
+      alignment: 9
+      pivot: {x: .449999988, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_70
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 1753
+        width: 54
+        height: 51
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_71
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1752
+        width: 72
+        height: 19
+      alignment: 9
+      pivot: {x: .460225433, y: .0101446854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_72
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 1752
+        width: 72
+        height: 17
+      alignment: 9
+      pivot: {x: .450281769, y: -.0158978626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_82
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1635
+        width: 44
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_83
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1635
+        width: 48
+        height: 49
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_84
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1635
+        width: 41
+        height: 55
+      alignment: 9
+      pivot: {x: .560000002, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_85
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1635
+        width: 47
+        height: 58
+      alignment: 9
+      pivot: {x: .460000008, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_86
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1635
+        width: 66
+        height: 80
+      alignment: 9
+      pivot: {x: .280000001, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_87
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1635
+        width: 56
+        height: 79
+      alignment: 9
+      pivot: {x: .319999993, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_88
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1635
+        width: 38
+        height: 76
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_89
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1635
+        width: 47
+        height: 58
+      alignment: 9
+      pivot: {x: .469999999, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_90
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1635
+        width: 44
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_127
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1535
+        width: 44
+        height: 63
+      alignment: 9
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_128
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1535
+        width: 36
+        height: 63
+      alignment: 9
+      pivot: {x: .300000012, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1535
+        width: 43
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_130
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1534
+        width: 50
+        height: 57
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_131
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1534
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: .460000008, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_132
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1534
+        width: 104
+        height: 52
+      alignment: 9
+      pivot: {x: .285772771, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_133
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1534
+        width: 94
+        height: 47
+      alignment: 9
+      pivot: {x: .335118085, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_134
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1534
+        width: 71
+        height: 43
+      alignment: 9
+      pivot: {x: .409999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_135
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1534
+        width: 57
+        height: 55
+      alignment: 9
+      pivot: {x: .469999999, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_136
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1534
+        width: 50
+        height: 57
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_149
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1423
+        width: 46
+        height: 61
+      alignment: 9
+      pivot: {x: .469999999, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_150
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1422
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: .370000005, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_151
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1422
+        width: 92
+        height: 64
+      alignment: 9
+      pivot: {x: .209999993, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_152
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1422
+        width: 90
+        height: 68
+      alignment: 9
+      pivot: {x: .209999993, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_153
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1422
+        width: 91
+        height: 58
+      alignment: 9
+      pivot: {x: .230000004, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_154
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1422
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: .400000006, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_155
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1422
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: .425000012, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_156
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1423
+        width: 46
+        height: 61
+      alignment: 9
+      pivot: {x: .460000008, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_178
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1264
+        width: 52
+        height: 151
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_179
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1264
+        width: 82
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_180
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1307
+        width: 66
+        height: 57
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_181
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1307
+        width: 60
+        height: 43
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_182
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1307
+        width: 55
+        height: 53
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_183
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1310
+        width: 73
+        height: 69
+      alignment: 9
+      pivot: {x: .246675462, y: .00864753127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_184
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1310
+        width: 60
+        height: 69
+      alignment: 9
+      pivot: {x: .232883707, y: -.00921896193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_185
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1310
+        width: 34
+        height: 68
+      alignment: 9
+      pivot: {x: .400000006, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_186
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1307
+        width: 46
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_187
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1307
+        width: 44
+        height: 55
+      alignment: 9
+      pivot: {x: .550000012, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_188
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1307
+        width: 46
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_189
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1264
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_190
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1264
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_191
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1264
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_192
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1264
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_193
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1264
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_194
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1264
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_195
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1264
+        width: 47
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_196
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1264
+        width: 47
+        height: 80
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_197
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1264
+        width: 47
+        height: 151
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_199
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1264
+        width: 55
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_200
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1264
+        width: 57
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_219
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1102
+        width: 44
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_220
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1102
+        width: 44
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_221
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1102
+        width: 48
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_222
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1102
+        width: 44
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_223
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1101
+        width: 51
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_224
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1101
+        width: 48
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_225
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1101
+        width: 43
+        height: 66
+      alignment: 9
+      pivot: {x: .409999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_226
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1101
+        width: 42
+        height: 67
+      alignment: 9
+      pivot: {x: .409999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_227
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1102
+        width: 44
+        height: 67
+      alignment: 9
+      pivot: {x: .409999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_228
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1102
+        width: 45
+        height: 67
+      alignment: 9
+      pivot: {x: .409999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_229
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1102
+        width: 45
+        height: 67
+      alignment: 9
+      pivot: {x: .409999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_230
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1102
+        width: 53
+        height: 65
+      alignment: 9
+      pivot: {x: .409999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_231
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1102
+        width: 76
+        height: 59
+      alignment: 9
+      pivot: {x: .289662421, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_233
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1102
+        width: 73
+        height: 58
+      alignment: 9
+      pivot: {x: .298353225, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_234
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1102
+        width: 73
+        height: 59
+      alignment: 9
+      pivot: {x: .287664533, y: .00145036087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_235
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1020
+        width: 75
+        height: 59
+      alignment: 9
+      pivot: {x: .314966023, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_236
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1019
+        width: 83
+        height: 64
+      alignment: 9
+      pivot: {x: .271200716, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_237
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1019
+        width: 84
+        height: 63
+      alignment: 9
+      pivot: {x: .256534398, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_238
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1020
+        width: 83
+        height: 59
+      alignment: 9
+      pivot: {x: .271200895, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_239
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1019
+        width: 90
+        height: 59
+      alignment: 9
+      pivot: {x: .271200895, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_240
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1019
+        width: 59
+        height: 59
+      alignment: 9
+      pivot: {x: .389999986, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_241
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1019
+        width: 48
+        height: 66
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_242
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 1019
+        width: 44
+        height: 63
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_265
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 922
+        width: 39
+        height: 77
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_266
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 922
+        width: 40
+        height: 75
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_267
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 922
+        width: 46
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_268
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 921
+        width: 44
+        height: 57
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_269
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 921
+        width: 44
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_270
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 921
+        width: 46
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_271
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 922
+        width: 50
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_272
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 922
+        width: 49
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_273
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 921
+        width: 46
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_274
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 922
+        width: 46
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_275
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 921
+        width: 44
+        height: 57
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_276
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 921
+        width: 44
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_277
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 922
+        width: 42
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_278
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 922
+        width: 42
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_283
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 817
+        width: 55
+        height: 69
+      alignment: 9
+      pivot: {x: .319999993, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_284
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 817
+        width: 59
+        height: 61
+      alignment: 9
+      pivot: {x: .419999987, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_285
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 817
+        width: 48
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_286
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 817
+        width: 48
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_287
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 817
+        width: 44
+        height: 55
+      alignment: 9
+      pivot: {x: .540000021, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_288
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 817
+        width: 46
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_301
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 712
+        width: 38
+        height: 63
+      alignment: 9
+      pivot: {x: .349999994, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_302
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 715
+        width: 51
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_303
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 715
+        width: 50
+        height: 57
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_304
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 712
+        width: 48
+        height: 66
+      alignment: 9
+      pivot: {x: .550000012, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_305
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 712
+        width: 47
+        height: 65
+      alignment: 9
+      pivot: {x: .550000012, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_306
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 712
+        width: 83
+        height: 65
+      alignment: 9
+      pivot: {x: .209999993, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_307
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 712
+        width: 70
+        height: 61
+      alignment: 9
+      pivot: {x: .270000011, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_308
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 712
+        width: 43
+        height: 55
+      alignment: 9
+      pivot: {x: .449999988, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_309
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 710
+        width: 48
+        height: 58
+      alignment: 9
+      pivot: {x: .349999994, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_320
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 606
+        width: 56
+        height: 66
+      alignment: 9
+      pivot: {x: .479999989, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_321
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 606
+        width: 47
+        height: 65
+      alignment: 9
+      pivot: {x: .540000021, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_322
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 610
+        width: 44
+        height: 57
+      alignment: 9
+      pivot: {x: .360000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_323
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 616
+        width: 70
+        height: 44
+      alignment: 9
+      pivot: {x: .449999988, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_324
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 616
+        width: 70
+        height: 44
+      alignment: 9
+      pivot: {x: .449999988, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_325
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 608
+        width: 48
+        height: 58
+      alignment: 9
+      pivot: {x: .379999995, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_326
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 618
+        width: 49
+        height: 42
+      alignment: 9
+      pivot: {x: .439999998, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_327
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 623
+        width: 42
+        height: 32
+      alignment: 9
+      pivot: {x: .600000024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_328
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 604
+        width: 44
+        height: 57
+      alignment: 9
+      pivot: {x: .379999995, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_329
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 602
+        width: 48
+        height: 62
+      alignment: 9
+      pivot: {x: .479999989, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_330
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 602
+        width: 48
+        height: 62
+      alignment: 9
+      pivot: {x: .479999989, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_331
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 601
+        width: 34
+        height: 55
+      alignment: 9
+      pivot: {x: .550000012, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_332
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 601
+        width: 35
+        height: 56
+      alignment: 9
+      pivot: {x: .550000012, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_333
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 601
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_334
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 600
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_335
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 600
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_368
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 495
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_369
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 495
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_370
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 495
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_371
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 495
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_372
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 496
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_373
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 496
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_374
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 496
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_375
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 496
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_376
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 496
+        width: 42
+        height: 62
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_377
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 496
+        width: 36
+        height: 81
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_378
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 496
+        width: 37
+        height: 79
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_392
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 392
+        width: 46
+        height: 61
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_393
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 394
+        width: 70
+        height: 61
+      alignment: 9
+      pivot: {x: .690831184, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_394
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 394
+        width: 87
+        height: 59
+      alignment: 9
+      pivot: {x: .600340724, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_395
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 394
+        width: 85
+        height: 58
+      alignment: 9
+      pivot: {x: .596277595, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_396
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 394
+        width: 87
+        height: 59
+      alignment: 9
+      pivot: {x: .600000024, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_397
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 394
+        width: 92
+        height: 58
+      alignment: 9
+      pivot: {x: .620000005, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_398
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 394
+        width: 90
+        height: 61
+      alignment: 9
+      pivot: {x: .579999983, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_399
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 394
+        width: 90
+        height: 68
+      alignment: 9
+      pivot: {x: .610000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_400
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 394
+        width: 88
+        height: 67
+      alignment: 9
+      pivot: {x: .589999974, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_401
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 394
+        width: 48
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_402
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 394
+        width: 75
+        height: 56
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_403
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 295
+        width: 91
+        height: 73
+      alignment: 9
+      pivot: {x: .601198733, y: .0123759229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_404
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 297
+        width: 63
+        height: 62
+      alignment: 9
+      pivot: {x: .786583066, y: .0347235911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_405
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 296
+        width: 77
+        height: 68
+      alignment: 9
+      pivot: {x: .652585924, y: .0451076739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_406
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 296
+        width: 71
+        height: 70
+      alignment: 9
+      pivot: {x: .69519645, y: .0710253045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_407
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 296
+        width: 94
+        height: 83
+      alignment: 9
+      pivot: {x: .655097783, y: .0600666814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_408
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 296
+        width: 88
+        height: 80
+      alignment: 9
+      pivot: {x: .248035088, y: .0409496315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_409
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 296
+        width: 94
+        height: 84
+      alignment: 9
+      pivot: {x: .224848315, y: .0591183603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_410
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 296
+        width: 50
+        height: 72
+      alignment: 9
+      pivot: {x: .41476807, y: .0546353646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_415
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 216
+        width: 51
+        height: 43
+      alignment: 9
+      pivot: {x: .430000007, y: .560000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_424
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 220
+        width: 45
+        height: 43
+      alignment: 9
+      pivot: {x: .403566897, y: .382263184}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_428
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 213
+        width: 44
+        height: 60
+      alignment: 9
+      pivot: {x: .491781056, y: .391513556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_429
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 219
+        width: 51
+        height: 41
+      alignment: 9
+      pivot: {x: .439999998, y: .519999981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_430
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 209
+        width: 53
+        height: 52
+      alignment: 9
+      pivot: {x: .292154551, y: .504927397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_431
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 220
+        width: 48
+        height: 41
+      alignment: 9
+      pivot: {x: .433892578, y: .439984202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_438
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 115
+        width: 44
+        height: 61
+      alignment: 9
+      pivot: {x: .377924055, y: .00792806689}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_439
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 115
+        width: 47
+        height: 64
+      alignment: 9
+      pivot: {x: .479999989, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_440
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 134
+        width: 66
+        height: 36
+      alignment: 9
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_441
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 113
+        width: 79
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_442
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 115
+        width: 44
+        height: 55
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_443
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 115
+        width: 46
+        height: 60
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_274
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 219
+        width: 47
+        height: 41
+      alignment: 9
+      pivot: {x: .392282367, y: .561742246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_265
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 220
+        width: 46
+        height: 40
+      alignment: 9
+      pivot: {x: .479999989, y: .479999989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_261
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 209
+        width: 57
+        height: 53
+      alignment: 9
+      pivot: {x: .304531157, y: .481312603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: img_1274697346_12_220
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1263
+        width: 71
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
