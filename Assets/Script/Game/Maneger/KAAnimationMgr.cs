@@ -20,4 +20,10 @@ public class KAAnimationMgr {
 	{
 		m_animator.Play(name);
 	}
+
+	public void Play(int hash)
+	{
+		m_animator.Play(hash);
+	}
+
 }

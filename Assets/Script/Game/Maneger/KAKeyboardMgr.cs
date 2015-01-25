@@ -103,18 +103,6 @@ public class KACombKey
 
 public class KAKeyboardMgr
 {
-	/*
-	public enum ListenKey
-	{
-		LK_UP,
-		LK_DOWN,
-		LK_LEFT,
-		LK_RIGHT,
-		LK_ATTACK,
-		LK_SKILL,
-		LK_JUMP
-	}
-	*/
 	private KARole m_role = null;
 	private KARoleStateMgr m_stateMgr = null;
 
@@ -280,12 +268,6 @@ public class KAKeyboardMgr
 		{
 			KACombKeyData data = CombKeyDeal.CustomData;
 			m_stateMgr.DealCombKeyData(data);
-
-			// 如果不为跑和走的操作，清空按键列表
-			if (data.type != KACombKeyData.DataType.TYPE_RUN)
-			{
-				ClearInputList();
-			}
 		}
 	}
 
@@ -298,7 +280,7 @@ public class KAKeyboardMgr
 		m_deltaTime = 0;
 	}
 
-	public static bool IsMoveKey()
+	public static bool IsArrowKey()
 	{
 		bool left = Input.GetKey(KeyCode.LeftArrow);
 		bool right = Input.GetKey(KeyCode.RightArrow);

@@ -3,11 +3,13 @@ using System.Collections;
 
 public class KARole : MonoBehaviour {
 
+	protected bool m_bLand = true;
 	protected bool m_bLeft = false;
 	protected float m_fWalkXSpeed = 10f;
 	protected float m_fWalkZSpeed = 8f;
 	protected float m_fRunXSpeed = 20f;
 	protected float m_fRunZSpeed = 16f;
+	protected float m_fJumpForce = 500.0f;
 
 	protected KAAnimationMgr m_animationMgr = null;
 	protected KAKeyboardMgr m_keyboardMgr = null;
@@ -17,13 +19,24 @@ public class KARole : MonoBehaviour {
 	{
 		get { return m_animationMgr; }
 	}
-	public KAKeyboardMgr CombKeyMgr
+	public KAKeyboardMgr KeyboardMgr
 	{
 		get { return m_keyboardMgr; }
 	}
 	public KARoleStateMgr RoleStateMgr
 	{
 		get { return m_roleStateMgr; }
+	}
+
+	public float JumpForce
+	{
+		get { return m_fJumpForce; }
+	}
+
+	// TODO OnLand的判断
+	public bool OnLand
+	{
+		get { return m_bLand; }
 	}
 
 	// Use this for initialization
@@ -36,28 +49,44 @@ public class KARole : MonoBehaviour {
 	// Update is called once per frame
 	public virtual void Update () {
 		m_keyboardMgr.UpdateKeyboadInput();
-		m_roleStateMgr.UpdateKeyboadInput();
+		m_roleStateMgr.Update();
+		UpdateDir();
 		UpdateRoleMove();
 	}
 
-	public virtual void UpdateRoleMove()
+	protected virtual void UpdateDir()
 	{
+		bool Left = Input.GetKey(KeyCode.LeftArrow);
+		bool Right = Input.GetKey(KeyCode.RightArrow);
+		if (!(Left && Right))
+		{
+			if (Left && !m_bLeft)
+			{
+				FaceTo(KACommon.Direction.D_LEFT);
+			}
+
+			if (Right && m_bLeft)
+			{
+				FaceTo(KACommon.Direction.D_RIGHT);
+			}
+		}
+	}
+
+	protected virtual void UpdateRoleMove()
+	{
+		// TODO 加入状态机
+		/*
+		if (Input.GetKeyDown(KeyCode.C))
+		{
+			Vector3 vForce = Vector3.zero;
+			vForce.y = m_fJumpForce;
+			transform.rigidbody.AddForce(vForce);
+		}
+		*/
+
 		if (m_roleStateMgr.IsCanMove() == false)
 		{
 			return;
-		}
-
-		if (m_bLeft)
-		{
-			Vector3 scale = transform.localScale;
-			scale.x = -Mathf.Abs(scale.x);
-			transform.localScale = scale;
-		}
-		else
-		{
-			Vector3 scale = transform.localScale;
-			scale.x = Mathf.Abs(scale.x);
-			transform.localScale = scale;
 		}
 
 		Vector3 velcity = transform.rigidbody.velocity;
@@ -82,42 +111,17 @@ public class KARole : MonoBehaviour {
 			vInput.z--;
 		}
 
-		KARoleStateMgr.State state = m_roleStateMgr.state;
+		KAStateType state = m_roleStateMgr.StateType;
 		float fXSpeed = 0, fZSpeed = 0;
-		if (vInput == Vector3.zero)
+		if (state == KAStateType.S_RUN)
 		{
-			if (m_roleStateMgr.IsCanIdel())
-			{
-				m_roleStateMgr.ChangeToState(KARoleStateMgr.State.S_IDLE);
-			}
-
+			fXSpeed = m_fRunXSpeed;
+			fZSpeed = m_fRunZSpeed;
 		}
-		else
+		else if (state == KAStateType.S_WALK || state == KAStateType.S_JUMP)
 		{
-			if (state == KARoleStateMgr.State.S_RUN)
-			{
-				fXSpeed = m_fRunXSpeed;
-				fZSpeed = m_fRunZSpeed;
-			}
-			else if (state == KARoleStateMgr.State.S_WALK || state == KARoleStateMgr.State.S_JUMP)
-			{
-				fXSpeed = m_fWalkXSpeed;
-				fZSpeed = m_fWalkZSpeed;
-			}
-			/*
-			if (m_keyboardMgr.IsRunKey() && m_roleStateMgr.IsCanRun())
-			{
-				m_roleStateMgr.ChangeToState(KARoleStateMgr.State.S_RUN);
-			}
-			else
-			{
-				if (m_roleStateMgr.IsCanWalk())
-				{
-					m_roleStateMgr.ChangeToState(KARoleStateMgr.State.S_WALK);
-				}
-			}
-			*/
-
+			fXSpeed = m_fWalkXSpeed;
+			fZSpeed = m_fWalkZSpeed;
 		}
 
 		velcity.x = vInput.x * fXSpeed;
@@ -128,15 +132,19 @@ public class KARole : MonoBehaviour {
 
 	public void FaceTo(KACommon.Direction dir)
 	{
+		Vector3 scale = transform.localScale;
 		if (dir == KACommon.Direction.D_LEFT)
 		{
 			m_bLeft = true;
+			scale.x = -Mathf.Abs(scale.x);
 		}
-
-		if (dir == KACommon.Direction.D_RIGHT)
+		else if (dir == KACommon.Direction.D_RIGHT)
 		{
 			m_bLeft = false;
+			scale.x = Mathf.Abs(scale.x);
 		}
+		transform.localScale = scale;
+
 	}
 
 }
