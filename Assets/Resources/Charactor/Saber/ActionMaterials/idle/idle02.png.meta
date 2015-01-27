@@ -3,6 +3,7 @@ guid: 58adafc912b0d8448b10565544b3678b
 TextureImporter:
   fileIDToRecycleName:
     21300000: idle02
+    21300002: Idle02
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

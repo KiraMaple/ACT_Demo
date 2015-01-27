@@ -104,7 +104,6 @@ public class KACombKey
 public class KAKeyboardMgr
 {
 	private KARole m_role = null;
-	private KARoleStateMgr m_stateMgr = null;
 
 	// 奔跑组合键
 	private KACombKey[] m_runKeyArray = new KACombKey[] {
@@ -138,7 +137,6 @@ public class KAKeyboardMgr
 	public KAKeyboardMgr(KARole role)
 	{
 		m_role = role;
-		m_stateMgr = role.RoleStateMgr;
 		ReadCombKeyList();
 	}
 
@@ -163,7 +161,6 @@ public class KAKeyboardMgr
 
 		if (Input.anyKeyDown)
 		{
-			//DealKeyChange();
 			DealCombKey();
 		}
 	}
@@ -196,34 +193,6 @@ public class KAKeyboardMgr
 		}
 	}
 
-	/*
-	private void DealKeyChange()
-	{
-		for (int i = 0; i < m_listenedKeyList.Length; i++ )
-		{
-			KeyCode key = m_listenedKeyList[i];
-			if (Input.GetKeyDown(key))
-			{
-				if (key == KeyCode.LeftArrow)
-				{
-					m_role.FaceTo(KACommon.Direction.D_LEFT);
-				}
-
-				if (key == KeyCode.RightArrow)
-				{
-					m_role.FaceTo(KACommon.Direction.D_RIGHT);
-				}
-				m_keyMask = m_keyMask | (1 << i);
-			}
-
-			if (Input.GetKeyUp(key))
-			{
-				m_keyMask = m_keyMask & ~(1 << i);
-			}
-		}
-	}
-	*/
-
 	public bool IsRunKey()
 	{
 		if (Input.anyKeyDown)
@@ -255,7 +224,7 @@ public class KAKeyboardMgr
 				{
 					if (CombKeyDeal.Length < CombKey.Length)
 					{
-						if (m_stateMgr.IsCanDeal(CombKeyDeal.CustomData))
+						if (m_role.RoleStateMgr.IsCanDeal(CombKeyDeal.CustomData))
 						{
 							CombKeyDeal = CombKey;
 						}
@@ -267,7 +236,7 @@ public class KAKeyboardMgr
 		if (CombKeyDeal != null)
 		{
 			KACombKeyData data = CombKeyDeal.CustomData;
-			m_stateMgr.DealCombKeyData(data);
+			m_role.RoleStateMgr.DealCombKeyData(data);
 		}
 	}
 

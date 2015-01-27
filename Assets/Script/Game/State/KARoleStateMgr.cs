@@ -9,6 +9,7 @@ public enum KAStateType
 	S_WALK,
 	S_RUN,
 	S_JUMP,
+	S_ATTACK,
 	S_ATTACKED,
 	S_SKILL
 }
@@ -16,17 +17,30 @@ public enum KAStateType
 public class KARoleStateMgr
 {
 	private KARole m_role = null;
+	private KAState m_lastState = null;
 	private KAState m_state = null;
-	private Dictionary<KAStateType, KAState> m_mapState = new Dictionary<KAStateType, KAState>();
+	private Dictionary<int, KAState> m_mapState = new Dictionary<int, KAState>();
 
 	public KARoleStateMgr(KARole role)
 	{
 		m_role = role;
-		m_mapState.Add(KAStateType.S_IDLE, new KAIdleState(this));
-		m_mapState.Add(KAStateType.S_WALK, new KAWalkState(this));
-		m_mapState.Add(KAStateType.S_RUN, new KARunState(this));
-		m_mapState.Add(KAStateType.S_JUMP, new KAJumpState(this));
-		ChangeToState(KAStateType.S_IDLE);
+
+		KAState IdleState = new KAStateIdle(this);
+		m_mapState.Add(IdleState.type, IdleState);
+
+		KAState WalkState = new KAStateWalk(this);
+		m_mapState.Add(WalkState.type, WalkState);
+
+		KAState RunState = new KAStateRun(this);
+		m_mapState.Add(RunState.type, RunState);
+
+		KAState JumpState = new KAStateJump(this);
+		m_mapState.Add(JumpState.type, JumpState);
+
+		KAState AttackState = new KAStateAttack(this);
+		m_mapState.Add(AttackState.type, AttackState);
+
+		ChangeToState((int)KAStateType.S_IDLE);
 	}
 
 	public KARole role
@@ -34,9 +48,14 @@ public class KARoleStateMgr
 		get { return m_role; }
 	}
 
-	public KAStateType StateType
+	public int StateType
 	{
-		get { return m_state.state; }
+		get { return m_state.type; }
+	}
+
+	public int LastStateType
+	{
+		get { return m_lastState != null ? m_lastState.type : (int)KAStateType.S_NONE; }
 	}
 
 	public KAState state
@@ -44,27 +63,36 @@ public class KARoleStateMgr
 		get { return m_state; }
 	}
 
-	public KAState getStateByType(KAStateType type)
+	public KAState getStateByType(int type)
 	{
 		return m_mapState[type];
 	}
 
 	public void Update()
 	{
-		m_state.UpdateState();
+		m_state.Update();
 	}
 
-	public void ChangeToState(KAStateType StateType)
+	public bool ChangeToState(int StateType)
 	{
 		KAState state = null;
 		if ( !m_mapState.TryGetValue(StateType, out state) )
 		{
-			return;
+			return false;
 		}
 
+		if (m_state != null)
+		{
+			m_state.AfterAction();
+		}
+		m_lastState = m_state;
 		m_state = state;
-		m_role.AnmationMgr.Play(m_state.hash);
+		if (m_state.hash != 0)
+		{
+			m_role.AnmationMgr.Play(m_state.hash);
+		}
 		m_state.PreAction();
+		return true;
 	}
 
 	public bool IsCanDeal(KACombKeyData data)
@@ -74,7 +102,7 @@ public class KARoleStateMgr
 
 	public bool IsCanMove()
 	{
-		if (StateType == KAStateType.S_WALK || StateType == KAStateType.S_RUN || StateType == KAStateType.S_JUMP)
+		if (StateType == (int)KAStateType.S_WALK || StateType == (int)KAStateType.S_RUN || StateType == (int)KAStateType.S_JUMP || StateType == (int)KAStateType.S_ATTACK)
 		{
 			return true;
 		}
