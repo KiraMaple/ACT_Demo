@@ -1,0 +1,21 @@
+luanet.load_assembly('Assembly-CSharp');
+KAKeyboardMgr = luanet.import_type('KAct.KAKeyboardMgr');
+require("Lua/State/PlayerStateType");
+
+State=
+{
+	role = {};
+	type=StateType.S_RUN;
+	animation="Run";
+	nextState={
+		StateType.S_IDLE,
+		StateType.S_JUMP
+	};
+	
+	Check=function(lastState)
+		if State.role.OnLand == true and State.role.IsSkill == false and KAKeyboardMgr.IsArrowKey() == true and State.role.KeyboardMgr:IsRunKey() == true then
+			return true;
+		end;
+		return false;
+	end;
+};--state

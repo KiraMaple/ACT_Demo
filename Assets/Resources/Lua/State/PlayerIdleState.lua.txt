@@ -1,0 +1,29 @@
+luanet.load_assembly('Assembly-CSharp');
+KAKeyboardMgr = luanet.import_type('KAct.KAKeyboardMgr');
+luanet.load_assembly('UnityEngine');
+Vector3 = luanet.import_type('UnityEngine.Vector3');
+require("Lua/State/PlayerStateType");
+
+State=
+{
+	role = {};
+	type=StateType.S_IDLE;
+	animation="Idle";
+	nextState={
+		StateType.S_WALK,
+		StateType.S_RUN,
+		StateType.S_JUMP,
+		StateType.S_ATTACK
+	};
+	
+	Check=function(lastState)
+		if State.role.OnLand == true and State.role.IsSkill == false and KAKeyboardMgr.IsArrowKey() == false then
+			return true;
+		end;
+		return false;
+	end;
+	
+	PreAction=function()
+		State.role.transform.rigidbody.velocity = Vector3.zero;
+	end;
+};--state

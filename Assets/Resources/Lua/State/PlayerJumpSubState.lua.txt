@@ -1,0 +1,81 @@
+luanet.load_assembly('Assembly-CSharp');
+KAKeyboardMgr = luanet.import_type('KAct.KAKeyboardMgr');
+luanet.load_assembly('UnityEngine');
+Input = luanet.import_type('UnityEngine.Input');
+KeyCode = luanet.import_type('UnityEngine.KeyCode');
+Physics = luanet.import_type('UnityEngine.Physics');
+Vector3 = luanet.import_type('UnityEngine.Vector3');
+Transform = luanet.import_type('UnityEngine.Transform');
+require("Lua/State/PlayerStateType");
+
+SubStateType={
+	S_START=0,
+	S_UP=1,
+	S_TOP=2,
+	S_DOWN=3,
+	S_END=4
+};--SubStateType
+
+State00={
+	role={};
+	type=SubStateType.S_START;
+	animation="JumpStart";
+	nextState={ SubStateType.S_UP };
+};--subState00
+
+State01={
+	role={};
+	type=SubStateType.S_UP;
+	animation="JumpUp";
+	nextState={ SubStateType.S_TOP };
+	
+	Check=function(lastState)
+		if State01.role.AnmationMgr.isPlaying == false then
+			return true;
+		end;
+		return false;
+	end;
+};--subState01
+
+State02={
+	role={};
+	type=SubStateType.S_TOP;
+	animation="JumpTop";
+	nextState={ SubStateType.S_DOWN };
+	
+	Check=function(lastState)
+		if State02.role.rigidbody.velocity.y <= 0 then
+			return true;
+		end;
+		return false;
+	end;
+};--subState02
+
+State03={
+	role={};
+	type=SubStateType.S_DOWN;
+	animation="JumpDown";
+	nextState={ SubStateType.S_END };
+	
+	Check=function(lastState)
+		if State03.role.AnmationMgr.isPlaying == false then
+			return true;
+		end;
+		return false;
+	end;
+};--subState03
+
+State04={
+	role={};
+	type=SubStateType.S_END;
+	animation="JumpEnd";
+	nextState={ SUBSTATE_END };
+	
+	Check=function(lastState)
+		local transform = State04.role.transform;
+		if (transform.position.y - (transform.localScale.y / 2)) < 0.5 then
+			return true;
+		end;
+		return false;
+	end;
+};--subState04

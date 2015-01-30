@@ -1,0 +1,13 @@
+StateType = 
+{
+	S_NONE=0,
+	S_IDLE=1,
+	S_WALK=2,
+	S_RUN=3,
+	S_JUMP=4,
+	S_ATTACK=5,
+	S_ATTACKED=6,
+	S_SKILL=7
+};
+
+SUBSTATE_END = -1;

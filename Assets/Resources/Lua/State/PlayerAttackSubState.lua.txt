@@ -1,0 +1,49 @@
+luanet.load_assembly('Assembly-CSharp');
+luanet.load_assembly('UnityEngine');
+Input = luanet.import_type('UnityEngine.Input');
+KeyCode = luanet.import_type('UnityEngine.KeyCode');
+require("Lua/State/PlayerStateType");
+
+SubStateType={
+	S_ATTACK1=0,
+	S_ATTACK2=1,
+	S_ATTACK3=2
+};--SubStateType
+
+State00=
+{
+	role={};
+	type=SubStateType.S_ATTACK1;
+	animation="Attack1";
+	nextState={ SubStateType.S_ATTACK2, SUBSTATE_END };
+};--State00
+
+State01=
+{
+	role={};
+	type=SubStateType.S_ATTACK2;
+	animation="Attack2";
+	nextState={ SubStateType.S_ATTACK3, SUBSTATE_END };
+	
+	Check=function(lastState)
+		if lastState.Param1 ~= 0 and Input.GetKeyDown(KeyCode.X) then
+			return true;
+		end;
+		return false;
+	end;
+};--State01
+
+State02=
+{
+	role={};
+	type=SubStateType.S_ATTACK3;
+	animation="Attack3";
+	nextState={ SUBSTATE_END };
+	
+	Check=function(lastState)
+		if lastState.Param1 ~= 0 and Input.GetKeyDown(KeyCode.X) then
+			return true;
+		end;
+		return false;
+	end;
+};--State02

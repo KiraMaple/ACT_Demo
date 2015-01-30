@@ -1,0 +1,39 @@
+luanet.load_assembly('Assembly-CSharp');
+KAKeyboardMgr = luanet.import_type('KAct.KAKeyboardMgr');
+luanet.load_assembly('UnityEngine');
+Input = luanet.import_type('UnityEngine.Input');
+KeyCode = luanet.import_type('UnityEngine.KeyCode');
+Physics = luanet.import_type('UnityEngine.Physics');
+require("Lua/State/PlayerStateType");
+
+State=
+{
+	role = {};
+	type=StateType.S_JUMP;
+	animation="";
+	nextState={
+		StateType.S_IDLE,
+		StateType.S_WALK
+	};--nextState
+	
+	SubStateCount=5;
+	SubState="Lua/State/PlayerJumpSubState.lua";
+	
+	Check=function(lastState)
+		if State.role.OnLand == true and State.role.IsSkill == false and Input.GetKeyDown(KeyCode.C) == true then
+			return true;
+		end;
+		return false;
+	end;
+	
+	PreAction=function()
+		local gravity = Physics.gravity;
+		local force = (-gravity.y) * State.role.rigidbody.mass * State.role.JumpForce;
+		State.role.rigidbody:AddForce(0, force, 0);
+		State.role.OnLand = false;
+	end;
+	
+	AfterAction=function()
+		State.role.OnLand = true;
+	end;
+};--state
