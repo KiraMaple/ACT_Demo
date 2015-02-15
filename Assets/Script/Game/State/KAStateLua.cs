@@ -50,8 +50,8 @@ namespace KAct
 			}
 		}
 
-		public KAState(KARoleStateMgr StateMgr, string luaFile)
-			: this(StateMgr)
+		public KAState(KARoleStateMgr StateMgr, string luaFile, KAState parent = null)
+			: this(StateMgr, parent)
 		{
 			LoadFromFile(luaFile);
 		}
@@ -80,6 +80,8 @@ namespace KAct
 				Debug.LogError("State Init Error. Can not find type in State Info. File:" + luaFile);
 				return false;
 			}
+			int type = Convert.ToInt32((double)state["type"]);
+			m_info.type = type;
 
 			if (state["role"] == null)
 			{
@@ -87,9 +89,6 @@ namespace KAct
 				return false;
 			}
 			state["role"] = m_roleStateMgr.role;
-
-			int type = Convert.ToInt32((double)state["type"]);
-			m_info.type = type;
 
 			string animation = (string)state["animation"];
 			if (animation != null && animation != "")

@@ -10,20 +10,13 @@ require("Lua/State/PlayerStateType");
 State=
 {
 	role = {};
-	--id=1;
-	--type=StateType.S_ATTACK;
-	animation="";
-	--[[
+	type=StateType.S_ATTACK;
+	animation="RunAttack";
 	nextState={
 		StateType.S_IDLE,
 		StateType.S_WALK,
 		StateType.S_ATTACK
 	};--nextState
-	--]]
-	key=KeyCode.X;
-	
-	SubStateCount=3;
-	SubState="Lua/State/PlayerAttackSubState.lua";
 	
 	Check=function(lastState)
 		if State.role.OnLand == true and State.role.IsSkill == false and Input.GetKeyDown(KeyCode.X) == true then
